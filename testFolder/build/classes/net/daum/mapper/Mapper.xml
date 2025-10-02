@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="Mapper"> 
+
+
+	<select id="test_user_id" parameterType="net.daum.dto.TestDTO" resultType="net.daum.dto.TestDTO">
+	 select * from tbl_testpage where test_id=#{test_id, jdbcType=VARCHAR} and test_pass=#{test_pass, jdbcType=VARCHAR}
+	</select>
+	
+	<insert id="test_write" parameterType="net.daum.dto.TestDTO">
+	insert into tbl_testpage (test_id,test_title,test_cont,test_date)values(#{test_id, jdbcType=VARCHAR},#{test_title, jdbcType=VARCHAR}, #{test_cont, jdbcType=VARCHAR},SYSDATE) 
+	</insert>
+
+   
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
