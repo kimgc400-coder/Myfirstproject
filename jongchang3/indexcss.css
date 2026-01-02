@@ -1,0 +1,156 @@
+#content {
+    margin: 0;
+    padding: 39px 0 40px;
+    width: 100%;
+    min-height: 2000px;
+    background-color: #f1f3f9;
+    
+}
+
+.Wrap_jview {
+    max-width: 1260px;
+    min-width: 960px;
+    margin: 0px auto;
+    padding: 0px 300px 0px 0px;
+    
+}
+
+.btn_jview{
+    display: inline-flex;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+
+.title_inner {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    gap: 4px;
+}
+
+.spr_jview{
+    border : 1px solid black;
+    padding : 2px 3px 2px 2px;
+}
+
+
+
+
+
+.btn_interest svg {
+    display: block;
+    width: 16px;    
+    height: 16px;
+}
+
+.btn_interest span, .btn_interest2 span {
+    line-height: 1;
+}
+
+.under_header {
+    display: flex;
+    gap: 3px;
+
+}
+
+.tit_job {
+    margin: 0;
+}
+
+.career{
+    margin: 20px 20px 20px 0;
+    padding : 0;
+    list-style: none;
+    width: 420px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+}
+
+.payroll{
+    margin: 20px 20px 20px 0;
+    padding : 0;
+    list-style: none;
+    width: 420px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+}
+
+.career li+li, .payroll li+li {
+    margin-top: 10px;
+}
+.career > li:first-child {
+    margin-top: 24px;
+}
+
+.career > li:last-child {
+    margin-bottom: 24px;
+}
+ 
+
+.payroll > li:first-child {
+    margin-top: 24px;
+}
+
+.career > li:last-child {
+    margin-bottom: 24px;
+}
+
+
+.size7{
+    width : 19px;
+    height: 19px;
+}
+
+
+.iwant{
+    margin: 9px;
+    font-size: 15px;
+    padding : 4px 20px;
+    border: 1px solid #ff5656;
+    background-color: #ff5656;
+    color : white
+}
+.spr_jview2{
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.btn_jview2{
+    display :inline-block;
+}
+/* ===========================복리후생============================ */
+
+.afterservice{
+    
+    margin: 0px 0px 14px;
+}
+.d4{
+    width : 870px;
+    margin:50px 0px 0px;
+    height : 362px;
+}
+
+.row{
+    height : 276px;
+    border : 1px solid black;
+    
+}
+
+.col{
+    display: flex;
+    margin-bottom: 6px;
+    gap : 100px;
+}
+
+.size8 {
+    
+}
+
